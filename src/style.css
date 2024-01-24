@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.outer-div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.inner-div {
+    display: flex;
+    height: 70%;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 30% 0  30%;
+    gap: 125px;
+}
+
+.image-div {
+    height: 65%;
+}
+
+img {
+    height: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+button {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    opacity: .5;
+}
